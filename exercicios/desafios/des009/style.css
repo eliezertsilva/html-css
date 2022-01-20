@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color: rgb(1, 1, 46);
+    color: white;
+}
+
+img#img {
+    height: 200px;
+    width: 350px;
+}
+
+img#voltar{
+    background-color: white;
+    border-radius: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
