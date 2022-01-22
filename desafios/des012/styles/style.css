@@ -56,7 +56,11 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte-padrao);
-    font-size: 5vw;
+    font-size: 3.5vw;
+}
+
+section > p{
+    padding-bottom: 12px;
 }
 
 section.normal{
@@ -74,6 +78,16 @@ section.imagem > p{
     display: inline-block;
     padding: 15px;
     border-radius: 20px;
+}
+
+section#img01{
+    background: black url('../images/background001.jpg') center right  / cover no-repeat fixed;
+}
+
+/*background: blue url('images/wallpaper002.jpg') center center / cover no-repeat fixed*/
+
+section#img02{
+    background: black url('../images/background002.jpg') center left / cover no-repeat fixed;
 }
 
 footer{
