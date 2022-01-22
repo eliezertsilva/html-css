@@ -2,9 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 :root{
     --fonte-destaque: 'Passion One', cursive;
-    --fonte-padrao: Verdana, sans-serif;
+    --fonte-padrao: 'Sriracha', cursive;
+    --fonte-link: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 *{
@@ -15,6 +18,7 @@
 html, body{
     min-height: 100vh;
     background-color: rgba(238, 238, 238, 0.918);
+    font-family: var(--fonte-link); 
 }
 
 header {
@@ -27,11 +31,11 @@ header > h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte-destaque);
+    font-size: 10vw;
 }
 
 header > p{
-    color: White;
-    font-family: var(--fonte-padrao); 
+    color: White; 
     padding-bottom: 50px;
 }
 
@@ -51,6 +55,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte-padrao);
+    font-size: 5vw;
 }
 
 section.normal{
@@ -64,18 +70,16 @@ section.imagem{
 }
 
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.438);
-    width: 400px;
-    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.212);
+    display: inline-block;
+    padding: 15px;
+    border-radius: 20px;
 }
 
 footer{
     background-color: black;
     text-align: center;
     padding: 10px;
+    color: White;
 }
 
-footer > p{
-    color: White;
-    font: normal normal var(--fonte-padrao);
-}
